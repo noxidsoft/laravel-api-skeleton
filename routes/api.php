@@ -44,4 +44,4 @@ Route::delete('articles/{id}', function($id) {
     Article::find($id)->delete();
 
     return 204;
-})
+});
